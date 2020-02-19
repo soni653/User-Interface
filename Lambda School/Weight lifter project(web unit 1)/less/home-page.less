@@ -1,0 +1,140 @@
+body {
+    background-color: @bg-color;
+    h1 {
+      @media @tablet {
+        margin-left: 1rem;
+      }
+      @media @phone {
+        margin-left: 5px;
+      }
+    }
+  }
+  .container {
+    .intro1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 80px;
+      @media @tablet {
+        margin-left: 1rem;
+      }
+  
+      @media @phone {
+        margin-left: 7rem;
+      }
+  
+      h1 {
+        @media @phone {
+          font-size: 1rem;
+          color: @para-green;
+        }
+      }
+  
+      h2 {
+        padding: 15px;
+        font-size: medium;
+        @media @phone {
+          text-align: center;
+        }
+      }
+  
+      p {
+        padding: 0 15px;
+      }
+    }
+    .intro h1 {
+      @media @tablet {
+        margin-left: 0px;
+      }
+    }
+    .topic {
+      padding: 15px;
+  
+      h4 {
+        margin-top: 11px;
+        @media @phone {
+          text-align: center;
+        }
+      }
+  
+      p {
+        margin-top: 13px;
+        @media @phone {
+          display: flex;
+          flex-direction: center;
+          width: 80%;
+        }
+      }
+    }
+  }
+  .intro1 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  
+    @media @phone {
+      flex-direction: center;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .topic {
+    margin-left: 20px;
+    .para1 .lady {
+      margin: 0px 0px 50px 50px;
+    }
+    @media @tablet {
+      .para1 .lady {
+        align-items: center;
+        margin: 20px 50px 20px 200px;
+      }
+    }
+    @media @phone {
+      .para1 .lady {
+        align-items: center;
+        margin: 90px;
+      }
+    }
+    .para2 .weight {
+      margin: 0px 0px 50px 50px;
+    }
+    @media @tablet {
+      .para2 .weight {
+        align-items: center;
+        margin: 20px 50px 20px 200px;
+      }
+    }
+    @media @phone {
+      .para2 .weight {
+        align-items: center;
+        margin: 90px;
+      }
+    }
+    .para3 .men {
+      margin: 0px 0px 50px 50px;
+    }
+  
+    @media @tablet {
+      .para3 .men {
+        align-items: center;
+        margin: 20px 50px 20px 200px;
+      }
+    }
+    @media @phone {
+      .para3 .men {
+        align-items: center;
+        margin: 90px;
+      }
+    }
+  }
+  .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    color:@about-color;
+    
+  }

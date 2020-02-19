@@ -1,0 +1,42 @@
+// Navigation code here
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    padding: 10px;
+    @media @tablet {
+      margin-left: 1rem;
+    }
+  
+    .navtag {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  
+    @media @phone {
+      justify-content: center;
+      text-align: center;
+      flex-wrap: wrap;
+      font-size: 3rem;
+      margin-left: 0;
+    }
+  
+    a {
+      color: @ebony-clay;
+      margin: 1%;
+      padding: 2%;
+      text-align: center;
+      @media @phone {
+        color: #eca400;
+        font-size: 2rem;
+      }
+    }
+    a:hover {
+      color:@main-font-color;
+    }
+  }
+  
