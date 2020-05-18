@@ -1,0 +1,14 @@
+/*.Person{
+    width: 80%;
+    margin: 16px;
+    border: 2px solid green;
+    box-shadow: 0 2px 3px rgb(66, 32, 218);
+    padding: 26px;
+    text-align: center;
+}
+
+@media(min-width: 500px) {
+    .Person{
+        width:450px;
+    }
+}*/
